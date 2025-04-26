@@ -1,0 +1,15 @@
+.titulo {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2E86C1;
+}
+
+Button {
+    -fx-background-color: #2980B9;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+
+
+
+ dropshadow(gaussian, black, 5, 0, 0, 3)
+}

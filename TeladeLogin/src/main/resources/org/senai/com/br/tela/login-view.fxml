@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="215.0" prefWidth="431.0" spacing="10" style="-fx-effect: dropshadow(gaussian, #00000050, 10, 0, 0, 5); -fx-background-color: linear-gradient(to bottom, #B97AD0, #7500D4);" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.senai.com.br.tela.HelloController">
+   <AnchorPane prefHeight="26.0" prefWidth="431.0">
+      <children>
+         <ImageView fitHeight="203.0" fitWidth="431.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: linear-gradient(to bottom, #B97AD0, #7500D4);;" />
+         <Text fill="#fafafa" fontSmoothingType="LCD" layoutX="160.0" layoutY="41.0" stroke="#1b1b1b" strokeType="OUTSIDE" strokeWidth="0.0" text="INSTAGRAM" wrappingWidth="98.498046875">
+            <effect>
+               <Reflection />
+            </effect>
+            <font>
+               <Font name="Candara" size="17.0" />
+            </font>
+         </Text>
+         <TextField fx:id="txtUsername" layoutX="8.0" layoutY="59.0" prefHeight="25.0" prefWidth="415.0" promptText="Usuário" style="-fx-effect: dropshadow(gaussian, #00000050, 10, 0, 0, 5);;" />
+         <PasswordField fx:id="txtPassword" layoutX="8.0" layoutY="102.0" prefHeight="25.0" prefWidth="415.0" promptText="Senha" style="-fx-effect: dropshadow(gaussian, #00000050, 10, 0, 0, 5);;" />
+         <Button fx:id="btnLogin" layoutX="186.0" layoutY="144.0" onAction="#handleLogin" style="-fx-effect: dropshadow(gaussian, #00000050, 10, 0, 0, 5);" text="Login" />
+         <ImageView fitHeight="25.0" fitWidth="30.0" layoutX="376.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../../../../../../../../Downloads/62be735b-9091-4b77-865d-7443e5b1e1c2.png" />
+            </image>
+            <effect>
+               <Reflection />
+            </effect>
+         </ImageView>
+         <ImageView fitHeight="25.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../../../../../../../../Downloads/62be735b-9091-4b77-865d-7443e5b1e1c2.png" />
+            </image>
+            <effect>
+               <Reflection />
+            </effect>
+         </ImageView>
+      </children>
+   </AnchorPane>
+</VBox>

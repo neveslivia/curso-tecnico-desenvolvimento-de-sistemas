@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Clientes</title>
+</head>
+<body>
+<h1>Clientes Cadastrados</h1>
+<ul>
+    <li th:each="cliente : ${clientes}">
+        <span th:text="${cliente.nomeCliente}">Nome</span> -
+        <span th:text="${cliente.itens}">Itens</span> -
+        <span th:text="${cliente.total}">Total</span>
+        <a th:href="@{'/clientes/deletar/' + ${cliente.id}}">[Deletar]</a>
+    </li>
+</ul>
+</body>
+</html>
+

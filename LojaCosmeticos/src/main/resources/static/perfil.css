@@ -1,0 +1,51 @@
+.column-1 {
+    background-color: var(--white_a700_e5);
+    width: 46%;
+    padding: var(--space-sm);
+}
+
+@media only screen and (max-width: 1050px) {
+    width: 100%;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+    padding: 16px;
+}
+
+.rowdesignsemnom {
+    gap: var(--space-sm);
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.designsemnome-4 {
+    height: 178px;
+    align-self: center;
+    width: 32%;
+    object-fit: contain;
+}
+
+.columnexample {
+    background-color: var(--white_a700_e5);
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-sm) 56px;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        padding: 20px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding: 16px;
+    }
+}
+
+.example_two {
+    margin-bottom: 60px;
+}

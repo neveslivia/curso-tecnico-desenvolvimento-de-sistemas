@@ -1,0 +1,104 @@
+.rowexample-1 {
+    width: 100%;
+    display: flex;
+
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+    }
+}
+
+.columnexample-4 {
+    gap: var(--space-lg);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    @media only screen and (max-width: 150px) {
+        gap: 66px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        gap: 44px;
+    }
+}
+
+.columnexample-5 {
+    gap: var(--space-lg);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    @media only screen and (max-width: 150px) {
+        gap: 60px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        gap: 44px;
+    }
+}
+
+.example_two {
+    color: var(--black_900);
+    font-size: 24px;
+    background-color: var(--white_a700_e5) !important;
+    width: 92.5%;
+    height: 132px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.rowexample-6 {
+    background-color: var(--white_a700_e5);
+    width: 100%;
+    display: flex;
+    padding: 32px 34px;
+
+    @media only screen and (max-width: 1440px) {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding: 16px;
+    }
+}
+
+.example-5 {
+    margin-bottom: 218px;
+}
+
+/* Page CSS */
+.row-6 {
+    display: flex;
+    justify-content: center;
+
+    @media only screen and (max-width: 1440px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.rowexample_two {
+    width: 100%;
+    display: flex;
+
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+    }
+}
+
+.columnexample-4 {
+    gap: var(--space-lg);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @media only screen and (max-width: 1440px) {
+        gap: 60px;
+    }
+}

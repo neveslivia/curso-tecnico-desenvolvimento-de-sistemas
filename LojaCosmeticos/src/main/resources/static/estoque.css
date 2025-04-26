@@ -1,0 +1,32 @@
+/* 1. Common CSS */
+.example {
+    margin-bottom: 596px;
+}
+
+/* 2. Page CSS */
+.columnexample-1 {
+    background-color: var(--white_a700_e5);
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 56px;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+.columnexample-2 {
+    background-color: var(--white_a700_e5);
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.suporteMonitoramento.Controller.monitoramentoGeralController">
+   <children>
+      <ImageView fitHeight="56.0" fitWidth="82.0" layoutX="21.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Text fill="#004aad" layoutX="97.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Monitoramento">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="22.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plano de Cuidado">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Text>
+      <Line endX="236.0" layoutX="124.0" layoutY="130.0" startX="-124.0" strokeWidth="2.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="418.0" layoutX="31.0" layoutY="148.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-width: 30; -fx-arc-height: 30;" width="298.0">
+         <fill>
+            <LinearGradient endX="0.05687203791469194" endY="1.0" startX="1.0" startY="0.06161137440758291">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color green="0.29019609093666077" blue="0.6784313917160034" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color green="0.29019609093666077" blue="0.6784313917160034" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.364705890417099" green="0.8784313797950745" blue="0.9019607901573181" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <TextField fx:id="txtf_nome_paciente" editable="true" layoutX="179.0" layoutY="157.0" prefHeight="25.0" prefWidth="132.0" promptText="Digite o nome..." style="-fx-background-color: transparent;">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <ImageView fitHeight="44.0" fitWidth="45.0" layoutX="44.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@usuario-de-perfil.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtf_idade_paciente" layoutX="178.0" layoutY="191.0" prefHeight="31.0" prefWidth="117.0" promptText="Digite a idade... " style="-fx-background-color: transparent;">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <Line endX="198.0" layoutX="123.0" layoutY="224.0" startX="-88.0" stroke="WHITE" strokeWidth="2.0" />
+      <TextField fx:id="txf_hora_acordar" layoutX="125.0" layoutY="305.0" prefHeight="25.0" prefWidth="174.0" promptText="Hora de acordar..." style="-fx-background-color: transparent;">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <ImageView fitHeight="44.0" fitWidth="83.0" layoutX="44.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@despertador.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="44.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cama.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtf_hora_dormir" layoutX="125.0" layoutY="367.0" prefHeight="25.0" prefWidth="174.0" promptText="Hora de dormir..." style="-fx-background-color: transparent;">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></TextField>
+      <Label layoutX="124.0" layoutY="160.0" text="Nome: " textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="194.0" text="Idade: " textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="234.0" text="Próximos Horários" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="283.0" text="Hora de Acordar" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="347.0" text="Hora de Dormir" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="44.0" layoutY="425.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@healthcare-medical_18599077.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="127.0" layoutY="425.0" text="Remédios" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtf_remedios" layoutX="125.0" layoutY="447.0" prefHeight="25.0" prefWidth="174.0" promptText="Remédios..." style="-fx-background-color: transparent;">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font></TextField>
+      <ImageView fitHeight="44.0" fitWidth="77.0" layoutX="43.0" layoutY="491.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@diaper_4445434.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="127.0" layoutY="491.0" text="Trocar Fralda" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtf_trocar_fralda" layoutX="129.0" layoutY="513.0" prefHeight="25.0" prefWidth="174.0" promptText="Horário de trocar fralda..." style="-fx-background-color: transparent;">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></TextField>
+      <Button layoutX="30.0" layoutY="590.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="⬅" />
+      <Button layoutX="297.0" layoutY="590.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="➡" />
+      <Button fx:id="bt_salvar" layoutX="129.0" layoutY="578.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" style="-fx-background-radius: 10;" styleClass="botao-personalizado" stylesheets="@style.css" text="Salvar" />
+      <Text layoutX="283.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age" wrappingWidth="28.0">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#004aad" layoutX="310.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Care">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

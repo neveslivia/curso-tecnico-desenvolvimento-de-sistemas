@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="427.0" fitWidth="721.0" layoutX="-82.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imagem/pngtree-modern.jpg" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-0.79" contrast="0.29" hue="0.42" />
+               </effect>
+            </ImageView>
+            <Text layoutX="60.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Informe o numero :">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.13401558995246887" green="0.6843729615211487" blue="0.7236841917037964" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Text>
+            <Text layoutX="60.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Informe o numero :">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.13401558995246887" green="0.6843729615211487" blue="0.7236841917037964" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Text>
+            <TextField fx:id="Num1" layoutX="268.0" layoutY="48.0" onAction="#onNum1" prefHeight="26.0" prefWidth="114.0">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="Num2" layoutX="268.0" layoutY="125.0" onAction="#onNum2" prefHeight="26.0" prefWidth="114.0" />
+            <Label fx:id="Resposta" layoutX="151.0" layoutY="212.0" lineSpacing="0.5" onDragDetected="#onResposta" prefHeight="104.0" prefWidth="310.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.5986841917037964" green="0.7105262875556946" blue="0.6862938404083252" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.006711409395973154">
+                           <color>
+                              <Color red="0.5986841917037964" green="0.7105262875556946" blue="0.6862938404083252" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

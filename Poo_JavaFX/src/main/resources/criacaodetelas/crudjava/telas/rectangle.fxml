@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #D5E5F2;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="criacaodetelas.crudjava.controller.RectangleController">
+   <children>
+      <Label alignment="CENTER" layoutY="32.0" text="Calculation of Rectangle Dimensions" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="127.0" layoutY="108.0" text="Base">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="108.0" text="Height">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_base" layoutX="71.0" layoutY="153.0" style="-fx-background-radius: 10;" />
+      <TextField fx:id="tf_altura" layoutX="403.0" layoutY="153.0" style="-fx-background-radius: 10;" />
+      <Button fx:id="bt_calcular" layoutX="257.0" layoutY="200.0" mnemonicParsing="false" onAction="#calculararea" prefHeight="25.0" prefWidth="87.0" style="-fx-background-radius: 10; -fx-background-color: #55A6D9;" text="Calcular" />
+      <Label fx:id="lb_area" alignment="CENTER" layoutX="55.0" layoutY="312.0" prefHeight="21.0" prefWidth="107.0" style="-fx-border-color: #ACD1F2; -fx-border-radius: 10; -fx-border-width: 2;" />
+      <Label fx:id="lb_perimetro" alignment="CENTER" layoutX="257.0" layoutY="312.0" prefHeight="21.0" prefWidth="107.0" style="-fx-border-color: #ACD1F2; -fx-border-radius: 10; -fx-border-width: 2;" />
+      <Label fx:id="lb_diagonal" alignment="CENTER" layoutX="445.0" layoutY="312.0" prefHeight="21.0" prefWidth="107.0" style="-fx-border-color: #ACD1F2; -fx-border-radius: 10; -fx-border-width: 2;" />
+      <Label layoutX="92.0" layoutY="281.0" text="Area">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="281.0" text="Perimeter">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="467.0" layoutY="281.0" text="Diagonal">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lojacosmeticos.Spring" />
+        <module name="Tela" />
+        <module name="Programa_de_Entrega" />
+        <module name="MeuProjetoJavaFX" />
+        <module name="Trabalhador" />
+        <module name="ListasMatrizeseForEach" />
+        <module name="crud-java" />
+        <module name="lojacosmeticos.Spring (1)" />
+        <module name="Getters_andSetters" />
+        <module name="Leitura_Arquivos" />
+        <module name="Heranca_Polimorfismo" />
+        <module name="CriacaodeMetodos" />
+        <module name="Programacao_Orientada_a_objetos" />
+        <module name="Construtores" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SenaiBilder_01" target="22" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lojacosmeticos.Spring" options="-parameters" />
+      <module name="lojacosmeticos.Spring (1)" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.suporteMonitoramento.Controller.verificaoSegurancaController">
+   <children>
+      <ImageView fitHeight="56.0" fitWidth="82.0" layoutX="21.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Text fill="#004aad" layoutX="94.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Segurança">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="293.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age" wrappingWidth="28.0">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#004aad" layoutX="321.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Care">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtf_email" layoutX="125.0" layoutY="140.0" prefHeight="25.0" prefWidth="213.0" promptText="Digite o email..." style="-fx-background-radius: 10; -fx-border-color: #004aad; -fx-border-width: 1; -fx-border-radius: 10;" />
+      <Text fx:id="txt_senha" layoutX="46.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha" wrappingWidth="47.0">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Text>
+      <Text fx:id="txt_email" layoutX="51.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Text>
+      <PasswordField fx:id="passw_senha" layoutX="124.0" layoutY="203.0" prefHeight="25.0" prefWidth="213.0" promptText="Digite a senha..." style="-fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #004aad;" />
+      <TextField fx:id="txtf_digitarToken" layoutX="156.0" layoutY="328.0" promptText="Digite o token..." visible="false" />
+      <Label fx:id="lb_digitarToken" alignment="CENTER" disable="true" layoutX="108.0" layoutY="365.0" prefHeight="21.0" prefWidth="143.0">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font></Label>
+      <Button fx:id="bt_salvar" layoutX="124.0" layoutY="249.0" mnemonicParsing="false" onAction="#onSalvarEmailSenhaClick" prefHeight="25.0" prefWidth="103.0" style="-fx-background-radius: 10;" styleClass="botao-personalizado" stylesheets="@style.css" text="Salvar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Line endX="266.0" layoutX="94.0" layoutY="305.0" startX="-100.0" stroke="#004aad" strokeWidth="3.0" />
+      <Text fill="#004aad" layoutX="87.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Verificação por Token">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtf_tokenDigitado" layoutX="139.0" layoutY="438.0" prefHeight="25.0" prefWidth="207.0" promptText="Digite o token..." style="-fx-background-radius: 10; -fx-border-color: #004aad; -fx-border-radius: 10;" />
+      <Label layoutX="20.0" layoutY="443.0" text="Digite o token">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="bt_salvarToken" layoutX="128.0" layoutY="524.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" style="-fx-background-radius: 10;" styleClass="botao-personalizado" stylesheets="@style.css" text="Salvar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="NW_RESIZE" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="42.0" fitWidth="71.0" layoutX="-5.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Cópia%20de%20Saga%20SENAI%20Inovação%20(2)-Photoroom.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="61.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Cópia%20de%20Saga%20SENAI%20Inovação%20(4)-Photoroom.png" />
+         </image>
+      </ImageView>
+      <Line endX="248.0" layoutX="112.0" layoutY="92.0" startX="-112.0" stroke="#004aad" strokeWidth="3.0" />
+   </children>
+</AnchorPane>

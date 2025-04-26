@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1050px) {
+    font-size: 34px;
+}
+
+@media only screen and (max-width: 550px) {
+    font-size: 32px;
+}
+
+.ui.text.size-text1 {
+    font-size: 64px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 64px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 48px;
+    }
+}
+
+.ui.text {
+    color: var(--black_900);
+    font-family: Open Sans;
+}
+
+/* Heading CSS */
+.ui.heading.size-headings {
+    font-size: 16px;
+    font-weight: 600;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 13px;
+    }
+}
+
+.ui.heading.size-headings {
+    font-size: 18px;
+    font-weight: 600;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 15px;
+    }
+}
+
+.ui.heading {
+    color: var(--black_900);
+    font-family: Open Sans;
+}
+.ui.text.size-texts {
+    font-size: 20px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 17px;
+    }
+}
+
+.ui.text.size-text1 {
+    font-size: 36px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 26px;
+    }
+}
+
+.ui.text.size-text2 {
+    font-size: 24px;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 23px;
+    }
+}
+
+.ui.text.size-text1 {
+    font-size: 64px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 64px;
+    }
+}
+
+.ui.text {
+    color: var(--black_900);
+    font-family: Open Sans;
+}

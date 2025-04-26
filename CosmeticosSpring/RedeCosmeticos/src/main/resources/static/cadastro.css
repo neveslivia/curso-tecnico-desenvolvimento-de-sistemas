@@ -1,0 +1,164 @@
+@media only screen and (max-width: 550px) {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.faolgin {
+    color: var(--blue_500) !important;
+    margin-right: 9px;
+
+    @media only screen and (max-width: 1440px) {
+        margin-right: 0;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        margin-right: 0;
+    }
+}
+
+.column_two {
+    height: 1116px;
+    background-image: url('../public/images/img_group_25.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+
+    padding: 89px 56px;
+
+    @media only screen and (max-width: 1440px) {
+        height: auto;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        align-self: stretch;
+        height: auto;
+        padding: 16px 20px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding: 16px 20px;
+    }
+}
+
+.columndesignsem1 {
+    margin-top: 54px;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (max-width: 1440px) {
+        width: 100%;
+    }
+}
+
+.maresibeauty-3 {
+    margin-top: 234px;
+}
+.benvindo {
+    margin-top: 59px;
+    margin-left: 8px;
+    margin-right: 8px;
+    gap: 12px;
+    display: flex;
+    width: 81%;
+
+    @media only screen and (max-width: 1440px) {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.columnemail-1 {
+    margin-top: 58px;
+    margin-left: 12px;
+    width: 81%;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.columnemail-2 {
+    margin-top: 12px;
+    margin-left: 12px;
+    width: 81%;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.frame_one {
+    color: var(--gray_600_01) !important;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    background-color: var(--white_700) !important;
+    height: 42px;
+    border-radius: 16px !important;
+}
+.column_two {
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 12px;
+    display: flex;
+    width: 87%;
+
+    @media only screen and (max-width: 1440px) {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.cadastro {
+    background: radial-gradient(180deg, #cfd8d8, #9a9bff);
+    width: 100%;
+    display: flex;
+
+    @media only screen and (max-width: 150px) {
+        padding: 20px;
+        flex-direction: column;
+    }
+}
+
+.column_one-1 {
+    width: 49%;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.column_1 {
+    background-color: var(--white_a700);
+
+    @media only screen and (max-width: 1440px) {
+        padding: 20px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding: 16px;
+    }
+}
+
+.columnbenvindo {
+    margin-top: 1px;
+    margin-left: 10px;
+
+    @media only screen and (max-width: 1050px) {
+        margin-left: 0;
+    }
+}

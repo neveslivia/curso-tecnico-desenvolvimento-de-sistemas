@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700" prefWidth="400" style="-fx-background-color: linear-gradient(to bottom, #ACE8CC, #BCFFEF); -fx-padding: 20px;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.FaixaEtariaController">
+
+
+    <Label layoutX="76.0" layoutY="50.0" style="-fx-font-size: 24px; -fx-text-fill: #3A3A3A; -fx-font-weight: bold; -fx-alignment: center;" text="Verificação de Faixa Etária">
+      <font>
+         <Font name="Centaur" size="12.0" />
+      </font></Label>
+
+
+    <TextField fx:id="inputIdade" layoutX="48.0" layoutY="182.0" prefWidth="300" promptText="Digite sua idade" style="-fx-font-size: 18px; -fx-background-radius: 15px; -fx-padding: 10px; -fx-border-color: #ACE8E7; -fx-border-radius: 15px; -fx-text-fill: #3A3A3A; -fx-background-color: white;" />
+
+
+    <Button fx:id="btnVerificar" layoutX="116.0" layoutY="326.0" prefWidth="200" style="-fx-background-color: #50BF97; -fx-background-radius: 15px; -fx-font-size: 20px; -fx-text-fill: #3A3A3A; -fx-padding: 10px; -fx-effect: dropshadow(gaussian, #ACE8E7, 5, 0, 0, 3);" text="Verificar" />
+
+
+    <Label fx:id="lblResultado" layoutX="50" layoutY="380" prefWidth="300" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-alignment: center; -fx-text-fill: #3A3A3A;" />
+   <Button fx:id="btnForward" layoutX="337.0" layoutY="701.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-font-size: 24px; -fx-cursor: hand;" text="➡" />
+   <Button fx:id="btnBack" layoutX="21.0" layoutY="701.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-font-size: 24px; -fx-cursor: hand;" text="⬅" />
+   <Button fx:id="btnHome" layoutX="189.0" layoutY="694.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-font-size: 24px; -fx-cursor: hand;" text="🏠" />
+   <Label fx:id="rclassificacaoidade" layoutX="33.0" layoutY="501.0" prefHeight="44.0" prefWidth="288.0" text="Classificação de idade: ">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font>
+   </Label>
+   <Line endX="100.0" layoutX="-201.0" layoutY="50.0" startX="-100.0" />
+   <Line endX="100.0" layoutX="215.0" layoutY="780.0" startX="-100.0" />
+
+</AnchorPane>

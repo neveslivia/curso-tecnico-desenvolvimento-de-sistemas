@@ -1,0 +1,22 @@
+background-page {
+    display: flex;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1680px) {
+    ...
+}
+
+@media only screen and (max-width: 580px) {
+    ...
+}
+.ui-example {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+:root {
+       --black_900: #000000;
+       --grey_200: #E0E0E0;
+       ...
+   }

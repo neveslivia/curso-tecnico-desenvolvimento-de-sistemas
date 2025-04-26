@@ -1,0 +1,31 @@
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url('../public/fonts/LibreBaskervilleRegular.ttf');
+    font-family: 'Libre Baskerville';
+    font-weight: 400;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url('../public/fonts/KonkhmerSleokhmerRegular.ttf');
+    font-family: 'Konkhmer Sleokhmer';
+    font-weight: 400;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url('../public/fonts/OpenSans.ttf');
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url('../public/fonts/OpenSansSemiBold.ttf');
+    font-family: 'Open Sans';
+    font-weight: 600;
+}

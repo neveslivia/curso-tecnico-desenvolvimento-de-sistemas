@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/JavaFX/pom.xml" />
+        <option value="$PROJECT_DIR$/PooJava/pom.xml" />
+        <option value="$PROJECT_DIR$/Arquivos/pom.xml" />
+        <option value="$PROJECT_DIR$/Poo_JavaFX/pom.xml" />
+        <option value="$PROJECT_DIR$/TeladeLogin/pom.xml" />
+        <option value="$PROJECT_DIR$/Construtores/Construtores/pom.xml" />
+        <option value="$PROJECT_DIR$/LojaCosmeticos/pom.xml" />
+        <option value="$PROJECT_DIR$/CosmeticosSpring/RedeCosmeticos/pom.xml" />
+        <option value="$PROJECT_DIR$/CriacaodeMetodos/pom.xml" />
+        <option value="$PROJECT_DIR$/Maiorde100JavaFX/SenaiBilder_01/pom.xml" />
+        <option value="$PROJECT_DIR$/Getters_and_Setters/pom.xml" />
+        <option value="$PROJECT_DIR$/HerancaPolimorfismo/pom.xml" />
+        <option value="$PROJECT_DIR$/Program_Trabalhador/pom.xml" />
+        <option value="$PROJECT_DIR$/Listas_Matriz_ForEach/pom.xml" />
+        <option value="$PROJECT_DIR$/Programa_Status_Entrega/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" project-jdk-name="openjdk-24" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

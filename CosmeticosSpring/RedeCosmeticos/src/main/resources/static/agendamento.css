@@ -1,0 +1,48 @@
+.row_two {
+    margin-bottom: 4px;
+    padding-left: 56px;
+    padding-right: 56px;
+
+    @media only screen and (max-width: 1050px) {
+        padding-left: 16px;
+        padding-right: 20px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding-right: 16px;
+    }
+}
+
+.row_one-1 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: var(--white_a700_cc);
+    display: flex;
+
+    @media only screen and (max-width: 1440px) {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+.rowexample-5 {
+    margin-bottom: 56px;
+    padding-left: 56px;
+    padding-right: 56px;
+    display: flex;
+
+    @media only screen and (max-width: 1440px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
