@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Atividade básica sobre html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Dinâmica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-800">
+    <header class="bg-gray-900 text-white px-6 py-4">
+      <h3 class="text-xl font-bold">Meu Site</h3>
+    </header>
+
+    <main class="px-6 py-8">
+      <section class="mb-10">
+        <h2 class="text-3xl font-bold mb-6">Formulário de Cadastro</h2>
+        <form class="space-y-4 max-w-md">
+          <div>
+            <label for="nome" class="block font-semibold mb-1">Nome</label>
+            <input
+              id="nome"
+              type="text"
+              class="w-full border border-gray-300 rounded px-4 py-2"
+              placeholder="Digite seu nome"
+            />
+          </div>
+          <div>
+            <label for="email" class="block font-semibold mb-1">E-mail</label>
+            <input
+              id="email"
+              type="email"
+              class="w-full border border-gray-300 rounded px-4 py-2"
+              placeholder="Digite seu e-mail"
+            />
+          </div>
+          <button
+            type="button"
+            class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
+          >
+            Adicionar
+          </button>
+        </form>
+      </section>
+      <div></div>
+
+      <!-- Tabela -->
+      <section>
+        <h2 class="text-2xl font-bold mb-4">Tabela de Cadastros</h2>
+        <table class="min-w-full table-auto border-separate border-spacing-y-2">
+          <thead>
+            <tr class="text-left font-semibold">
+              <th class="px-4">Nome</th>
+              <th class="px-4">E-mail</th>
+              <th class="px-4">Ação</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-dados">
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer class="text-center text-sm text-gray-500 py-4"></footer>
+  </body>
+</html>
+```
+
